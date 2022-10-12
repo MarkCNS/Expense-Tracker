@@ -1,0 +1,56 @@
+.text-input {
+  border: none;
+  padding: 12px;
+  /* border: 2px solid #333; */
+  border-radius: 5px;
+  color: #333;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 0 10px;
+}
+
+.amount-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 6px;
+  /* overflow: hidden;
+  font-family: sans-serif; */
+  margin: 0 0 18px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.amount-box .prefix {
+  /* font-weight: 300;
+  font-size: 14px; */
+  color: #999;
+}
+
+.amount-box .suffix {
+  width: 100%;
+}
+
+.currency-field {
+  border: none;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  color: #333;
+  width: 100%;
+}
+
+/* .currency-field input {
+  flex-grow: 1;
+  width: 100%;
+} */
+.currency-field input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.amount-box:focus-within {
+  border: 2px solid black;
+}
